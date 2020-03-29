@@ -1,8 +1,10 @@
 # casl
 
-FIXME: description
-
-## Installation
+#### Leiningen Commands:
+- `lein new app my-clojure-project`
+- `lein clean`
+- `lein deps`
+- `lein repl`
 
 Download from http://example.com/FIXME.
 
@@ -16,13 +18,7 @@ FIXME: explanation
 
 FIXME: listing of options this app accepts.
 
-## Examples
 
-...
-
-### Bugs
-
-...
 
 ### Any Other Sections
 ### That You Think
