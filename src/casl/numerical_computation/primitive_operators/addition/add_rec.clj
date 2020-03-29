@@ -1,4 +1,4 @@
-(ns casl.numerical-computation.primitive-operators.addition.add-rec-process
+(ns casl.numerical-computation.primitive-operators.addition.add-rec
   (:use [casl.math-util.helper :all ()]))
 
 (defn plus [a b]

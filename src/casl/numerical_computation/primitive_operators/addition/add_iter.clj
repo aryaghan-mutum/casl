@@ -1,4 +1,4 @@
-(ns casl.numerical-computation.primitive-operators.addition.add-iter-process
+(ns casl.numerical-computation.primitive-operators.addition.add-iter
   (:use [casl.math-util.helper :all ()]))
 
 (use 'clojure.tools.trace)
