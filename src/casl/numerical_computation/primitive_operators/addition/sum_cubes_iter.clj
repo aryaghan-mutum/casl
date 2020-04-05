@@ -6,7 +6,6 @@
 
 (defn sum-cubes-iter [a b c]
   (let ((m a) (n b))
-
     (if (> a b)
       c
       (sum-cubes-iter (add1 a)

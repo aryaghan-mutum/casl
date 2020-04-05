@@ -7,5 +7,4 @@
     (+ (cube a)
        (sum-cubes (add1 a) b))))
 
-
 (println (sum-cubes 2 5))
