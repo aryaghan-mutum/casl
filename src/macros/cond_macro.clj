@@ -9,4 +9,5 @@
                    "cond requires an even number of forms")))
         (cons 'clojure.core/cond (next (next clauses)))))
 
-(cond)
+;(cond)
+

@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5339e6a-5365-4177-9b38-7991fb610514" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__riddley_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clojure_functions/strings.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/macros/and_macro.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/macros/assert_macro.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/macros/testfile.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/casl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casl/math_util/helper.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/casl/math_util/helper.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macros/cond_macro.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/macros/cond_macro.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/macros/when_macro.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/macros/when_macro.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,56 +24,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assert_macro.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/macros/assert_macro.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/casl/core.clj">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="8500">
+              <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_iter.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_iter.clj">
+      <file leaf-file-name="testfile.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/macros/testfile.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="div_iter.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/div_iter.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="true" selection-start-column="1" selection-end-line="21" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="divide_two_fractions.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/divide_two_fractions.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mastering_clojure_macros_1.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/macros/mastering_clojure_macros_1.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="div_iter2.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/div_iter2.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -70,29 +63,8 @@
       <file leaf-file-name="when_macro.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/macros/when_macro.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cond_macro.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/macros/cond_macro.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/lang/Util.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1459">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
-              <folding>
-                <element signature="e#6026#6027#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -100,8 +72,44 @@
       <file leaf-file-name="helper.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/casl/math_util/helper.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="629">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="and_macro.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/macros/and_macro.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clojure_functions/strings.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string.clj" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/string.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -114,6 +122,12 @@
         <option value="Clojure Namespace" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>capitalize</find>
+      <find>blank</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,9 +144,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/casl/core.clj" />
         <option value="$PROJECT_DIR$/src/casl/helper_functions/helper.clj" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_iter_process.clj" />
-        <option value="$PROJECT_DIR$/src/casl/math_util/helper.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_rec_process.clj" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/sum_cubes.clj" />
@@ -142,21 +154,28 @@
         <option value="$PROJECT_DIR$/src/mastering_clojure_macros_1.clj" />
         <option value="$PROJECT_DIR$/src/macros/mastering_clojure_macros_1.clj" />
         <option value="$PROJECT_DIR$/src/macros/macros_ex1.clj" />
-        <option value="$PROJECT_DIR$/src/macros/cond_macro.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_iter.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/sum_cubes_iter.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/sum_cubes_rec.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/div_iter.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/divide_two_fractions.clj" />
         <option value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/div_iter2.clj" />
+        <option value="$PROJECT_DIR$/src/macros/cond_macro.clj" />
+        <option value="$PROJECT_DIR$/src/macros/testfile.clj" />
         <option value="$PROJECT_DIR$/src/macros/when_macro.clj" />
+        <option value="$PROJECT_DIR$/src/macros/assert_macro.clj" />
+        <option value="$PROJECT_DIR$/src/casl/math_util/helper.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/macros/and_macro.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_functions/strings.clj" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="23" />
-    <option name="width" value="1306" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="27" />
+    <option name="y" value="26" />
+    <option name="width" value="1312" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -166,8 +185,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,21 +201,7 @@
               <item name="casl" type="b2602c69:ProjectViewProjectNode" />
               <item name="casl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="casl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-              <item name="math_util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="casl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-              <item name="primitive_operators" type="462c0819:PsiDirectoryNode" />
+              <item name="clojure_functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="casl" type="b2602c69:ProjectViewProjectNode" />
@@ -206,21 +209,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="macros" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="casl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="casl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="casl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.macros.when_macro">
+  <component name="RunManager" selected="Clojure Application.strings">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -271,20 +265,9 @@
       <setting name="configType" value="SPECIFY" />
       <setting name="fixLineNumbers" value="false" />
     </configuration>
-    <configuration name="casl.numerical-computation.primitive-operators.division.div-iter2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="and_macro" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="casl" />
-      <setting name="path" value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/div_iter2.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division" />
-    </configuration>
-    <configuration name="cond_macro" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="casl" />
-      <setting name="path" value="$PROJECT_DIR$/src/macros/cond_macro.clj" />
+      <setting name="path" value="$PROJECT_DIR$/src/macros/and_macro.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
@@ -293,20 +276,9 @@
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/macros" />
     </configuration>
-    <configuration name="div_iter2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="assert_macro" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="casl" />
-      <setting name="path" value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division/div_iter2.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/division" />
-    </configuration>
-    <configuration name="macros.when_macro" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="casl" />
-      <setting name="path" value="$PROJECT_DIR$/src/macros/when_macro.clj" />
+      <setting name="path" value="$PROJECT_DIR$/src/macros/assert_macro.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
@@ -315,16 +287,38 @@
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/macros" />
     </configuration>
-    <configuration name="when_macro" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+    <configuration name="casl.math-util.helper" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="casl" />
-      <setting name="path" value="$PROJECT_DIR$/src/macros/when_macro.clj" />
+      <setting name="path" value="$PROJECT_DIR$/src/casl/math_util/helper.clj" />
       <setting name="namespace" value="" />
       <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/macros" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/casl/math_util" />
+    </configuration>
+    <configuration name="helper" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="casl" />
+      <setting name="path" value="$PROJECT_DIR$/src/casl/math_util/helper.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/casl/math_util" />
+    </configuration>
+    <configuration name="strings" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="casl" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_functions/strings.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_functions" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -365,19 +359,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Clojure Application.div_iter2" />
-      <item itemvalue="Clojure Application.casl.numerical-computation.primitive-operators.division.div-iter2" />
-      <item itemvalue="Clojure Application.when_macro" />
-      <item itemvalue="Clojure Application.cond_macro" />
-      <item itemvalue="Clojure Application.macros.when_macro" />
+      <item itemvalue="Clojure Application.assert_macro" />
+      <item itemvalue="Clojure Application.helper" />
+      <item itemvalue="Clojure Application.casl.math-util.helper" />
+      <item itemvalue="Clojure Application.and_macro" />
+      <item itemvalue="Clojure Application.strings" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Clojure Application.macros.when_macro" />
-        <item itemvalue="Clojure Application.cond_macro" />
-        <item itemvalue="Clojure Application.when_macro" />
-        <item itemvalue="Clojure Application.casl.numerical-computation.primitive-operators.division.div-iter2" />
-        <item itemvalue="Clojure Application.div_iter2" />
+        <item itemvalue="Clojure Application.strings" />
+        <item itemvalue="Clojure Application.and_macro" />
+        <item itemvalue="Clojure Application.helper" />
+        <item itemvalue="Clojure Application.casl.math-util.helper" />
+        <item itemvalue="Clojure Application.assert_macro" />
       </list>
     </recent_temporary>
   </component>
@@ -395,29 +389,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="23" width="1306" height="745" extended-state="0" />
+    <frame x="4" y="23" width="1312" height="745" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.28976378" side_tool="true" visible="true" weight="0.2672" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="right" id="REPL" order="3" side_tool="true" weight="0.32990506" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3408" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49448818" weight="0.336" />
       <window_info anchor="right" id="Leiningen" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7102362" visible="true" weight="0.2672" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40427214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27874017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49911347" weight="0.39871383" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -456,11 +451,31 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>((make-adder 33) 5)</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((make-adder 3) 5)</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((make-adder (+ 1 2)) 5)</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((make-adder (+ 3 3)) 5)</expression-string>
+        <language-id>Clojure</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(println (read-string &quot;(+ 1 2)&quot;))</expression-string>
         <language-id>Clojure</language-id>
@@ -494,36 +509,9 @@
         <language-id>Clojure</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>read-string &quot;(+ 1 2 3 )&quot;)</expression-string>
-        <language-id>Clojure</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(println (read-string &quot;(+ 1 2 3 )&quot;))</expression-string>
-        <language-id>Clojure</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_iter.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_rec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/casl/core_test.clj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62492">
@@ -556,9 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3043">
           <caret line="240" selection-start-line="240" selection-end-line="240" />
-          <folding>
-            <element signature="e#6026#6027#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,20 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -726,23 +697,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62492">
-          <caret line="3676" column="6" selection-start-line="3676" selection-start-column="6" selection-end-line="3676" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.clj" />
     <entry file="file://$PROJECT_DIR$/test/casl/core_test.clj">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_rec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/sum_cubes_iter.clj">
       <provider selected="true" editor-type-id="text-editor">
@@ -772,34 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_iter.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/lang/Util.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1459">
           <caret line="204" selection-start-line="204" selection-end-line="204" />
-          <folding>
-            <element signature="e#6026#6027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/lang/Compiler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="439" selection-start-line="439" selection-end-line="439" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/casl/math_util/helper.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -817,24 +750,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/macros/cond_macro.clj">
+    <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_rec.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/macros/when_macro.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/macros/mastering_clojure_macros_1.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="-114">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/lang/Compiler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="534" column="25" selection-start-line="534" selection-start-column="25" selection-end-line="534" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macros/cond_macro.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/casl/numerical_computation/primitive_operators/addition/add_iter.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macros/when_macro.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/casl/math_util/helper.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8500">
+          <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macros/testfile.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/string.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_functions/strings.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macros/assert_macro.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/macros/and_macro.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>

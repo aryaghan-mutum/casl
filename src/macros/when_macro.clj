@@ -2,7 +2,7 @@
 
 ;; Examples:
 (defmacro when [x & body]
-  (println (list 'if x (cons 'do body))))
+  (list 'if x (cons 'do body)))
 
 (when (= 2 (+ 1 1))
       (print "you got")
@@ -38,3 +38,22 @@
         (println))))
 
 (this-is-func2)
+
+'(when clauses
+      (list 'if (first clauses)
+            (if (next clauses)
+              (second clauses)
+              (throw (IllegalArgumentException.
+                       "cond requires an even number of forms")))
+            (cons 'clojure.core/cond (next (next clauses)))))
+
+(println (list 'if 'clauses
+      (cons 'do
+            '((list 'if (first clauses)
+                    (if (next clauses)
+                      (second clauses)
+                      (throw (IllegalArgumentException.
+                               "cond requires an even number of forms")))
+                    (cons 'clojure.core/cond (next (next clauses))))))))
+
+(macroexpand-1 '(when (= 1 2) (println "math is broken")))
